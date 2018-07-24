@@ -1,0 +1,4 @@
+[
+  "tests/test_views.py::TestViews::()::test_post_item",
+  "tests/test_views.py::TestViews::()::test_post_review"
+]

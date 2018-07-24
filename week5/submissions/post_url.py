@@ -16,7 +16,6 @@ passw = 'ktotama'
 res = requests.put(url,  auth=HTTPBasicAuth(login, passw))
 r = res.json()
 print(r)
-with open('answer.json', 'w') as f:
-    json.dump(r, f)
-with open('answer.json', 'r') as f:
-    print(json.load(f))
+with open('answer.txt', 'w') as f:
+	f.write(r['answer'])
+
